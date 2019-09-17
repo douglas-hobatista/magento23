@@ -1,0 +1,29 @@
+{
+    "name": "priceproducts/showprice",
+    "description": "",
+    "require": {
+        "php": "~7.1.3||~7.2.0"
+    },
+    "suggest": {
+        "magento/module-catalog-sample-data": "Sample Data version: 100.3.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authros":[
+        {
+            "name": "Douglas Henrique de Oliveira Batista",
+            "e-mail" "douglas.hobatista@gmai.com"
+        }
+    ],
+    "license": [
+        "proprietary",
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Priceproducts\\Showprice\\": ""
+        }
+    },
+}
